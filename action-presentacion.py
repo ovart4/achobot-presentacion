@@ -11,7 +11,7 @@ MQTT_ADDR = "{}:{}".format(MQTT_IP_ADDR, str(MQTT_PORT))
 def intent_received(hermes, intent_message):
 
     if intent_message.intent.intent_name == 'josenka:presentacion':
-        sentence = 'Hola, soy Lola. Soy una plataforma robótica de asistencia a personas de edad avanzada. He sido diseñado por un estudiante de la UPCT y dispongo de una interfaz de voz, una interfaz gráfica y un diseño muy bonito.'
+        sentence = 'Hola, soy Lola. Soy una plataforma robótica de asistencia a personas de edad avanzada. He sido diseñado por un estudiante de la Politécnica de Cartagena. Dispongo de una interfaz de voz, una interfaz gráfica y un diseño muy bonito.'
     else:
         return
     
